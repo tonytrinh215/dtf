@@ -1,4 +1,23 @@
 .site-footer a:hover {
     background-color: #000000;
-    transition: all 1s ease-in;
+    transition: background-color 2s;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+h4 {
+    font-family: 'Open Sans', cursive;
 }
